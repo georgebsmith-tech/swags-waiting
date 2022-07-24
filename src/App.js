@@ -64,10 +64,10 @@ function App() {
           </div>
           <div style={{ position: "relative", marginTop: 30 }}>
             <div>
-              <img src="/images/img1.svg" alt="image" />
+              <img src="/images/img1.svg" alt="brand one" />
             </div>
             <div style={{ position: "absolute", top: 80, right: -24 }}>
-              <img src="/images/img2.svg" alt="image" />
+              <img src="/images/img2.svg" alt="brand two" />
             </div>
           </div>
         </div>
