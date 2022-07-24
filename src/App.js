@@ -2,11 +2,22 @@ function App() {
   return (
     <div
       style={{
-        height: "100vh",
+        minHeight: "100vh",
         display: "grid",
         gridTemplatesRows: "1fr auto 1fr"
       }}
     >
+      <div style={{ position: "absolute", zIndex: -1 }}>
+        <div style={{}}>
+          <img src="/images/bg1.svg" alt="background" />
+        </div>
+        <div style={{ position: "absolute", top: 20, right: 40 }}>
+          <img src="/images/bg3.svg" alt="background" />
+        </div>
+        <div style={{}}>
+          <img src="/images/bg2.svg" alt="background" />
+        </div>
+      </div>
       <header style={{ padding: "26px 24px" }}>
         <img src="/images/logo1.svg" alt="logo" />
       </header>
@@ -72,16 +83,19 @@ function App() {
           </div>
         </div>
       </main>
+
       <footer
         style={{
           textAlign: "center",
           position: "relative",
-          bottom: 0,
-          top: 120
+          bottom: -150
         }}
       >
         <p>Copyright © 2022 Swags All Rights Reserved</p>
       </footer>
+      <div style={{ position: "absolute", bottom: -80, left: 30 }}>
+        <img src="/images/ring.svg" alt="brand two" />
+      </div>
     </div>
   );
 }
