@@ -8,7 +8,7 @@ function App() {
       }}
     >
       <header style={{ padding: "26px 24px" }}>
-        <img src="/images/logo1.svg" />
+        <img src="/images/logo1.svg" alt="logo" />
       </header>
       <main>
         <div style={{ padding: "0px 24px" }}>
@@ -64,10 +64,10 @@ function App() {
           </div>
           <div style={{ position: "relative", marginTop: 30 }}>
             <div>
-              <img src="/images/img1.svg" />
+              <img src="/images/img1.svg" alt="image" />
             </div>
             <div style={{ position: "absolute", top: 80, right: -24 }}>
-              <img src="/images/img2.svg" />
+              <img src="/images/img2.svg" alt="image" />
             </div>
           </div>
         </div>
