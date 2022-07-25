@@ -15,4 +15,97 @@ code {
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
+  transition: 0.6s;
+}
+
+.page-padding {
+  padding: 26px 10vw;
+}
+
+.cta-text > p {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.cta-text-text {
+  font-size: 14px;
+  margin-top: 13px;
+}
+
+.images-wrapper {
+  position: relative;
+  margin-top: 30px;
+  flex: 0.5;
+}
+
+.cta {
+  flex: 0.5;
+}
+
+.container {
+  display: block;
+}
+
+.image-wrapper {
+  /* background-color: red; */
+  height: 27vw;
+  max-height: 300x;
+  flex: 1;
+}
+.images-wrapper {
+  display: flex;
+}
+.desktop {
+  display: none;
+}
+
+.image-move {
+  position: relative;
+  top: 100px;
+}
+button {
+  cursor: pointer;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (min-width: 768px) {
+  .mobile {
+    display: none;
+  }
+  .cta {
+    margin-top: 100px;
+  }
+
+  .desktop {
+    display: initial;
+  }
+
+  .image-wrapper > img {
+    height: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1vw;
+    justify-content: space-between;
+  }
+
+  .page-padding {
+    padding: 38px 10vw;
+  }
+
+  .cta-text > p {
+    font-size: 50px;
+  }
+
+  .cta-text-text {
+    font-size: 16px;
+    margin-top: 20px;
+  }
 }
